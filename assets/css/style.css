@@ -1,0 +1,332 @@
+* body{
+    margin: 0;
+}
+    /* body{
+        background-image: url(https://res.akamaized.net/domain/image/upload/t_web/v1629867843/65A_Champion_St_Brighton_VIC_1_bunjuj.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    */
+
+
+.image{
+    min-width: 100%;
+    top: 0px;
+    position: absolute;
+
+}
+.box_1{
+    position: relative;
+}
+.navbar{
+    height: 100px;
+    width: 1900px;
+    background-color: aqua;
+    border: 1px solid black;
+}
+#icon_start{
+    font-size: 50px;
+    position: absolute;
+    top: 25px;
+    left: 50px;
+}
+.box_text{
+    height: 500px;
+    width: 500px;
+    background-color: red;
+    color: white;
+    position: absolute;
+    top: 260px;
+    left: 300px;
+}
+.form{
+    height: 500px;
+    width: 400px;
+    background-color: yellow;
+    position: absolute;
+    top: 260px;
+    right: 300px;
+}
+.navbar_in_box{
+    height: 60px;
+    width: 160px;
+    background-color: white;
+    position: absolute;
+    top: 20px;
+    right: 320px;
+}
+.click{
+    height: 60px;
+    width: 150px;
+    background-color: blue;
+    position: absolute;
+    top: 400px;
+    left: 180px;
+}
+.amount{
+    height: 50px;
+    width: 360px;
+    background-color: red;
+    position: absolute;
+    top: 180px;
+    left: 20px;
+}
+.month{
+    height: 50px;
+    width: 360px;
+    background-color: red;
+    position: absolute;
+    top: 290px;
+    left: 20px;
+}
+.apply{
+    height: 50px;
+    width: 360px;
+    background-color: rgb(0, 240, 0);
+    position: absolute;
+    top: 400px;
+    left: 20px;
+}
+.text_1{
+    color: black;
+    font-size: 80px;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+.text_2{
+    color: black;
+    font-size:26px;
+    position: absolute;
+    top: 330px;
+    left: 20px;
+}
+.click_text{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 15px;
+    left: 19px;
+    text-decoration: none;
+}
+.click:hover{
+    background-color: yellow;
+    transition: 2s;
+}
+.click_text:hover{
+    color: red;
+    transition: 2s;
+}
+.text_amount{
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    top: 13px;
+    left: 20px;
+    text-decoration: none;
+}
+.text_month{
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    top: 13px;
+    left: 20px;
+    text-decoration: none;
+}
+.text_apply{
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    top: 13px;
+    left:140px;
+    text-decoration: none;
+}
+#icon_1{
+    position: absolute;
+    right: -200px;
+    top: 3px;
+}
+#icon_2{
+    position: absolute;
+    right: -210px;
+    top: 3px;
+}
+.form_text_1{
+    color:red;
+    font-size: 30px;
+    position: absolute;
+    top: 20px;
+    left: 28px;
+}
+
+.form_text_2{
+    color:red;
+    font-size: 15px;
+    position: absolute;
+    top: 60px;
+    left: 40px;
+}
+.form_text_3{
+    color: black;
+    position: absolute;
+    top: -30px;
+    font-size: 20px;
+}
+.form_text_4{
+    color: black;
+    position: absolute;
+    top: -30px;
+    font-size: 20px;
+}
+.form_text_5{
+    color: black;
+    position: absolute;
+    top: 370px;
+    font-size: 20px;
+    left: 20px;
+}
+#icon_3{
+   
+color: green;
+}
+.form_text_6{
+    color: grey;
+    font-size: 15px;
+    position: absolute;
+    top: 460px;
+    left: 40px;
+}
+.box_2{
+    height: 1000px;
+    width: 1900px;
+    background-color: blue;
+    position: absolute;
+    top: 1000px;
+}
+.choose_1{
+    width: 350px;
+    height: 350px;
+    background-color: red;
+    position: absolute;
+    top: 400px;
+    left: 170px;
+}
+.choose_2{
+    width: 350px;
+    height: 350px;
+    background-color: rgb(238, 241, 3);
+    position: absolute;
+    top: 400px;
+    left: 580px;
+}
+.choose_3{
+    width: 350px;
+    height: 350px;
+    background-color: rgb(185, 4, 74);
+    position: absolute;
+    top: 400px;
+    left: 990px;
+}
+.choose_4{
+    width: 350px;
+    height: 350px;
+    background-color: rgb(28, 73, 2);
+    position: absolute;
+    top: 400px;
+    left: 1400px;
+}
+#icon_rps{
+    font-size: 70px;
+    position: absolute;
+    top: 30px;
+    left: 140px;
+
+}
+.rps_text{
+    font-size: 16px;
+    position: absolute;
+    top: 170px;
+    left: 15px;
+    right: 10px;
+
+}
+.rps_txt{
+    font-size: 25px;
+    position: absolute;
+    top: 120px;
+    left: 100px;
+    text-decoration: none;
+    color: white;
+}
+.choose_in_text_1{
+    font-size: 80px;
+    position: absolute;
+    top: 20px;
+    left: 700px;
+}
+.choose_in_text_2{
+    font-size: 20px;
+    position: absolute;
+    top: 120px;
+    left: 680px;
+    width: 600px;
+
+}
+menu li{
+    display: inline-block;
+    text-decoration: none;
+}
+.home{
+    position: absolute;
+    top: 40px;
+    right: 900px;
+    text-decoration: none;
+}
+.about{
+    top: 40px;
+    position: absolute;
+    right: 800px;
+    text-decoration: none;
+}
+.services{
+    top: 40px;
+    position: absolute;
+    right: 700px;
+    text-decoration: none;
+}
+.blog{
+    top: 40px;
+    position: absolute;
+    right: 540px;
+    text-decoration: none;
+}
+.contact{
+    top: 40px;
+    position: absolute;
+    right: 520px;
+    text-decoration: none;
+}
+.app{
+    top: 40px;
+    position: absolute;
+    right: 350px;
+    text-decoration: none;
+}
+.menu_year{
+    color: rgb(255, 255, 255);
+    width: 280px;
+    background-color: blue;
+}
+.menu_cat{
+    color: rgb(255, 255, 255);
+    width: 280px;
+    background-color: blue;
+}   
+.menu_in{
+    position: absolute;
+    left: 0;
+    top: 10px;
+}
+.blog:hover .menu_in{
+    display: none;
+
+}
