@@ -10,37 +10,52 @@
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="shortcut icon" href="https://publicdomainvectors.org/tn_img/dynnamitt_home.webp" type="image/x-icon">
 </head>
 
 <body>
 
     <img class="image"
-        src="https://res.akamaized.net/domain/image/upload/t_web/v1629867843/65A_Champion_St_Brighton_VIC_1_bunjuj.jpg"
+        src="https://media.architecturaldigest.com/photos/6075f91840178ff9b53eab3f/master/w_1600%2Cc_limit/Infinity-MT.jpg"
         alt="">
 
     <!-- box 1 start -->
     <div class="box_1">
-        
         <!-- navbar start  -->
         <div class="navbar">
-            <i id="icon_start" class="fa-solid fa-house-circle-check"></i>
-            <ul class="menu">
-                <a href=""  class="home">Home </a>
-                <a href=""  class="about">About</a>
-                <a href=""  class="services">Services</a>
-                <span href=""  class="blog">
-                    <a href="s">Blog</a>
-                        <ul class="menu_in">
-                            <li>Blog</li>
-                            <li>Blog details</li>
-                            <li>Element</li>
-                        </ul>
-                </span>
-                <a href="" li class="contact">Contact</a>
-                <div class="navbar_in_box"></div>
-                <a href="" li class="app"> Apply for Loan </a>
-            </ul>
+            <nav class="navbar_in">
+                <a href="">
+                    <span class="page1">Home</span>
+                </a>
+                <a href="">
+                    <span class="page2">About</span>
+                </a>
+                <a href="">
+                    <span class="page3">Services</span>
+                </a>
+                    <div class="submenu">
+                        <a href="">
+                            <span class="page4">Blog</span>
+                                <ul class="point">
+                                    <li>Blog</li>
+                                    <li>Blog details</li>
+                                    <li>Element</li>
+                                </ul>
+                        </a>
+                    </div>
+                <a href="">
+                    <span class="page5">Contact</span>
+                </a>
+                <div class="nav_block">
+                    <a href="">
+                        <span class="page6">Apply For Loan</span>
+                    </a>
+                </div>
+            </nav>
+            <a href="index.html">
+                <i id="icon_start" class="fa-solid fa-house-circle-check"></i>
+            </a>
         </div>
 
         <!-- navbar finish -->
@@ -55,35 +70,48 @@
         <!-- inform finish -->
         <!-- form start -->
         <div class="form">
-            <span class="form_text_1">Lorem ipsum dolor sit amet?</span>
-            <span class="form_text_2">Lorem, ipsum dolor sit amet consectetur adipisicing.</span>
-
-            <div class="amount">
-                <span class="form_text_3"> Amount you want</span>
-                <a href="" class="text_amount">Select amount 
-                    <ul class="menu_cat">
-                        <li>Categoty 1</li>
-                        <li>Categoty 2</li>
-                        <li>Categoty 3</li>
-                    </ul>
-                <i id="icon_1" class="fa-solid fa-arrow-down"></i></a>
+            <!-- form text start -->
+            <div class="form_title">
+                <div class="form_line"></div>
+                    <span class="title_text_1">How much you want?</span>
+                    <span class="title_text_2">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
             </div>
-            <div class="month">
-                <span class="form_text_4">Month</span>
-                <a href="" class="text_month"> Select month 
-                    <ul class="menu_year">
-                        <li>Year</li>
-                        <li>Month</li>
-                        <li>Week</li>
-                    </ul>
-                <i id="icon_2" class="fa-solid fa-arrow-down"></i></a>
+            <!-- form text finish -->
+            <!-- form choose box start -->
+            <div class="">
+                <!-- 1 form choose start -->
+                <form>
+                    <span class="title_text_3">Amount you want</span>
+                    <select class="form_1">
+                        <option class="select_cat">Select Amount</option>
+                        <option class="select_cat">Category 1</option>
+                        <option class="select_cat">Category 2</option>
+                        <option class="select_cat">Category 3</option>
+                    </select>
+                </form>
+                <!-- 1 form choose finish -->
+                <!-- 2 form choose start -->
+                <form>
+                    <span class="title_text_4">Month</span>
+                    <select class="form_2">
+                        <option class="select_cat">Select Month</option>
+                        <option class="select_cat">Year</option>
+                        <option class="select_cat">Weak</option>
+                        <option class="select_cat">Day</option>  
+                    </select>
+                </form>
+                <!-- 2 form choose finish -->
+                <!--  form now start -->
+                <span class="title_text_5">You have to pay:<i class="fa-solid fa-dollar-sign"></i></span>
+                <div class="form_3">
+                    <a href>
+                        <span class="button">Apply Now</span>
+                    </a>
+                </div>
+                <span class="title_text_6">Lorem ipsum dolor sit amet consectetur adipisicing.</span>
             </div>
-            <span class="form_text_5">You have to pay:<i id="icon_3" class="fa-solid fa-dollar-sign"></i></span>
-            <div class="apply">
-                <a href="" class="text_apply">Apply now </a>
-            </div>
-            <span class="form_text_6"> Lorem, ipsum dolor sit amet consectetur adipisicing.</span>
-
+                <!--  form now finish -->
+            <!-- form choose box finish -->
         </div>
         <!-- form finish -->
     </div>
@@ -95,14 +123,10 @@
         <span class="choose_in_text_2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt facilis, modi
             quidem deleniti rem inventore!</span>
         <div class="choose_1">
-            <a href="" class="rps_txt">Lorem, ipsum.</a>
+            <a href="" class="rps_txt"><p>Rock.</p></a>
             <span class="choose_text_1">
                 <i id="icon_rps" class="fa-regular fa-hand-back-fist"></i>
-                <span class="rps_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum rem sed,
-                    distinctio debitis nemo impedit dolorem architecto dignissimos! Sunt, maiores. Reiciendis quae
-                    consequuntur impedit ipsa adipisci fugiat optio id. Excepturi, dicta placeat! Incidunt magnam
-                    voluptates excepturi dolorum eos perspiciatis dolorem maiores nostrum aspernatur qui ipsa eveniet
-                    aperiam, magni illum accusamus!</span>
+                <span class="rps_text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor, placeat. Suscipit quibusdam, delectus sequi excepturi maxime corrupti ut veritatis rerum quae alias dicta perferendis? Voluptatibus voluptates commodi repellat accusamus ipsa ea quibusdam ducimus eos expedita?</span>
             </span>
         </div>
         <!-- imoji1 finish -->
@@ -110,12 +134,8 @@
         <div class="choose_2">
             <span class="choose_text_2">
                 <i id="icon_rps" class="fa-regular fa-hand"></i>
-                <a href="" class="rps_txt">Lorem, ipsum.</a>
-                <span class="rps_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum rem sed,
-                    distinctio debitis nemo impedit dolorem architecto dignissimos! Sunt, maiores. Reiciendis quae
-                    consequuntur impedit ipsa adipisci fugiat optio id. Excepturi, dicta placeat! Incidunt magnam
-                    voluptates excepturi dolorum eos perspiciatis dolorem maiores nostrum aspernatur qui ipsa eveniet
-                    aperiam, magni illum accusamus!</span>
+                <a href="" class="rps_txt"><p>Paper.</p></a>
+                <span class="rps_text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor, placeat. Suscipit quibusdam, delectus sequi excepturi maxime corrupti ut veritatis rerum quae alias dicta perferendis? Voluptatibus voluptates commodi repellat accusamus ipsa ea quibusdam ducimus eos expedita?</span>
             </span>
         </div>
         <!-- imoji2 finish -->
@@ -123,12 +143,8 @@
         <div class="choose_3">
             <span class="choose_text_3">
                 <i id="icon_rps" class="fa-regular fa-hand-scissors"></i>
-                <a href="" class="rps_txt">Lorem, ipsum.</a>
-                <span class="rps_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum rem sed,
-                    distinctio debitis nemo impedit dolorem architecto dignissimos! Sunt, maiores. Reiciendis quae
-                    consequuntur impedit ipsa adipisci fugiat optio id. Excepturi, dicta placeat! Incidunt magnam
-                    voluptates excepturi dolorum eos perspiciatis dolorem maiores nostrum aspernatur qui ipsa eveniet
-                    aperiam, magni illum accusamus!</span>
+                <a href="" class="rps_txt"><p>Scissors.</p></a>
+                <span class="rps_text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor, placeat. Suscipit quibusdam, delectus sequi excepturi maxime corrupti ut veritatis rerum quae alias dicta perferendis? Voluptatibus voluptates commodi repellat accusamus ipsa ea quibusdam ducimus eos expedita?</span>
             </span>
         </div>
         <!-- imoji3 finish -->
@@ -136,18 +152,15 @@
         <div class="choose_4">
             <span class="choose_text_4">
                 <i id="icon_rps" class="fa-regular fa-handshake"></i>
-                <a href="" class="rps_txt">Lorem, ipsum.</a>
-                <span class="rps_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum rem sed,
-                    distinctio debitis nemo impedit dolorem architecto dignissimos! Sunt, maiores. Reiciendis quae
-                    consequuntur impedit ipsa adipisci fugiat optio id. Excepturi, dicta placeat! Incidunt magnam
-                    voluptates excepturi dolorum eos perspiciatis dolorem maiores nostrum aspernatur qui ipsa eveniet
-                    aperiam, magni illum accusamus!</span>
+                <a href="" class="rps_txt"><p>OK bro.</p></a>
+                <span class="rps_text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor, placeat. Suscipit quibusdam, delectus sequi excepturi maxime corrupti ut veritatis rerum quae alias dicta perferendis? Voluptatibus voluptates commodi repellat accusamus ipsa ea quibusdam ducimus eos expedita?</span>
             </span>
         </div>
     </div>
     <!-- imoji4 finish -->
     <!-- box 2 finish -->
 
+    
 </body>
 
 </html>

@@ -12,134 +12,133 @@
     min-width: 100%;
     top: 0px;
     position: absolute;
-
 }
 .box_1{
     position: relative;
 }
 .navbar{
     height: 100px;
-    width: 1900px;
-    background-color: aqua;
-    border: 1px solid black;
+    width: 1798px;
+    background-color: rgb(183, 184, 186);
+
 }
+.point{
+    display: none;
+    position: absolute;
+    top: 50px;
+    right: 400px;
+    background-color: rgb(255, 255, 255);
+    height: 228px;
+    width: 200px;
+    list-style-type: none;
+    text-decoration: none;
+    position: absolute;
+    z-index: 2;
+    transition: 2s;
+}
+li{
+    font-size: 30px;
+    padding: 20px;
+    margin-left: -20px;
+    color: black;
+}
+li:hover{
+    box-shadow: 0px 15px 15px  rgb(0, 0, 0);
+    margin-left: -40px;
+    color: rgb(255, 255, 255);
+    border-radius: 16px;
+}
+.submenu:hover .point{
+    display: block;
+    background: rgba(148, 137, 127, 0.38);
+    border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(19.2px);
+-webkit-backdrop-filter: blur(19.2px);
+}
+
+
 #icon_start{
     font-size: 50px;
     position: absolute;
     top: 25px;
-    left: 50px;
+    left: 230px;
+    color: rgb(0, 73, 219);
 }
 .box_text{
-    height: 500px;
+    height: 550px;
     width: 500px;
-    background-color: red;
-    color: white;
     position: absolute;
-    top: 260px;
+    top: 250px;
     left: 300px;
+    background: rgba(156, 230, 249, 0.1);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.5px);
+    -webkit-backdrop-filter: blur(4.5px);
 }
 .form{
-    height: 500px;
-    width: 400px;
-    background-color: yellow;
+    height: 650px;
+    width: 500px;
     position: absolute;
-    top: 260px;
-    right: 300px;
+    top: 200px;
+    right: 210px;
+    z-index: 1;
+    background-color:rgb(183, 184, 186);
+    border-radius: 30px;
 }
 .navbar_in_box{
     height: 60px;
     width: 160px;
-    background-color: white;
+    background-color: rgb(183, 247, 247);
     position: absolute;
     top: 20px;
     right: 320px;
+    border-radius: 20px;
 }
 .click{
     height: 60px;
     width: 150px;
-    background-color: blue;
+    background-color: rgb(170, 211, 230);
     position: absolute;
-    top: 400px;
+    top: 460px;
     left: 180px;
+    border-radius: 20px;
 }
-.amount{
-    height: 50px;
-    width: 360px;
-    background-color: red;
-    position: absolute;
-    top: 180px;
-    left: 20px;
-}
-.month{
-    height: 50px;
-    width: 360px;
-    background-color: red;
-    position: absolute;
-    top: 290px;
-    left: 20px;
-}
-.apply{
-    height: 50px;
-    width: 360px;
-    background-color: rgb(0, 240, 0);
-    position: absolute;
-    top: 400px;
-    left: 20px;
-}
+
 .text_1{
     color: black;
-    font-size: 80px;
+    font-size: 90px;
     position: absolute;
     left: 20px;
     top: 20px;
 }
 .text_2{
-    color: black;
+    color: rgb(255, 248, 242);
     font-size:26px;
     position: absolute;
-    top: 330px;
+    top: 350px;
     left: 20px;
 }
 .click_text{
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 20px;
     position: absolute;
-    top: 15px;
-    left: 19px;
+    top: 18px;
+    left: 23px;
     text-decoration: none;
 }
 .click:hover{
-    background-color: yellow;
+    background-color: rgb(0, 84, 252);
     transition: 2s;
 }
 .click_text:hover{
-    color: red;
+    color: rgb(255, 255, 255);
     transition: 2s;
 }
-.text_amount{
-    font-size: 20px;
-    color: white;
-    position: absolute;
-    top: 13px;
-    left: 20px;
-    text-decoration: none;
-}
-.text_month{
-    font-size: 20px;
-    color: white;
-    position: absolute;
-    top: 13px;
-    left: 20px;
-    text-decoration: none;
-}
-.text_apply{
-    font-size: 20px;
-    color: white;
-    position: absolute;
-    top: 13px;
-    left:140px;
-    text-decoration: none;
-}
+
+
+
 #icon_1{
     position: absolute;
     right: -200px;
@@ -150,89 +149,50 @@
     right: -210px;
     top: 3px;
 }
-.form_text_1{
-    color:red;
-    font-size: 30px;
-    position: absolute;
-    top: 20px;
-    left: 28px;
-}
 
-.form_text_2{
-    color:red;
-    font-size: 15px;
-    position: absolute;
-    top: 60px;
-    left: 40px;
-}
-.form_text_3{
-    color: black;
-    position: absolute;
-    top: -30px;
-    font-size: 20px;
-}
-.form_text_4{
-    color: black;
-    position: absolute;
-    top: -30px;
-    font-size: 20px;
-}
-.form_text_5{
-    color: black;
-    position: absolute;
-    top: 370px;
-    font-size: 20px;
-    left: 20px;
-}
-#icon_3{
-   
-color: green;
-}
-.form_text_6{
-    color: grey;
-    font-size: 15px;
-    position: absolute;
-    top: 460px;
-    left: 40px;
-}
+
 .box_2{
     height: 1000px;
-    width: 1900px;
-    background-color: blue;
+    width: 1797px;
+    background-color: rgb(183, 184, 186);
     position: absolute;
     top: 1000px;
 }
 .choose_1{
     width: 350px;
     height: 350px;
-    background-color: red;
+    background-color: rgb(170, 211, 230);
     position: absolute;
-    top: 400px;
-    left: 170px;
+    top: 540px;
+    left: 80px;
+    border-radius: 30px;
 }
 .choose_2{
     width: 350px;
     height: 350px;
-    background-color: rgb(238, 241, 3);
+    background-color: rgb(255, 255, 255);
     position: absolute;
-    top: 400px;
-    left: 580px;
+    top: 540px;
+    left: 510px;
+    border-radius: 30px;
 }
 .choose_3{
     width: 350px;
     height: 350px;
-    background-color: rgb(185, 4, 74);
+    background-color: rgb(170, 211, 230);
     position: absolute;
-    top: 400px;
-    left: 990px;
+    top: 540px;
+    left: 940px;
+    border-radius: 30px;
 }
 .choose_4{
     width: 350px;
     height: 350px;
-    background-color: rgb(28, 73, 2);
+    background-color: rgb(255, 255, 255);
     position: absolute;
-    top: 400px;
-    left: 1400px;
+    top: 540px;
+    left: 1370px;
+    border-radius: 30px;
 }
 #icon_rps{
     font-size: 70px;
@@ -244,89 +204,177 @@ color: green;
 .rps_text{
     font-size: 16px;
     position: absolute;
-    top: 170px;
-    left: 15px;
+    top: 174px;
+    left: 27px;
     right: 10px;
 
 }
 .rps_txt{
     font-size: 25px;
     position: absolute;
-    top: 120px;
-    left: 100px;
+    top: 100px;
+    left: 144px;
     text-decoration: none;
     color: white;
 }
 .choose_in_text_1{
     font-size: 80px;
     position: absolute;
-    top: 20px;
-    left: 700px;
+    top: 170px;
+    left: 650px;
 }
 .choose_in_text_2{
     font-size: 20px;
     position: absolute;
-    top: 120px;
-    left: 680px;
+    top: 270px;
+    left: 620px;
     width: 600px;
+    color: rgb(0, 0, 0);
+}
 
+
+.form_1{
+    height: 60px;
+    width: 450px;
+    position: absolute;
+    top: 210px;
+    left: 25px;
+    font-size: 20px;
+    
 }
-menu li{
-    display: inline-block;
+.form_2{
+    height: 60px;
+    width: 450px;
+    position: absolute;
+    top: 360px;
+    left: 25px;
+    font-size: 20px;
+    
+}
+.form_3{
+    height: 60px;
+    width: 450px;
+    position: absolute;
+    top: 520px;
+    left: 25px;
+    background-color: green;
     text-decoration: none;
 }
-.home{
+.button{
     position: absolute;
-    top: 40px;
-    right: 900px;
-    text-decoration: none;
-}
-.about{
-    top: 40px;
-    position: absolute;
-    right: 800px;
-    text-decoration: none;
-}
-.services{
-    top: 40px;
-    position: absolute;
-    right: 700px;
-    text-decoration: none;
-}
-.blog{
-    top: 40px;
-    position: absolute;
-    right: 540px;
-    text-decoration: none;
-}
-.contact{
-    top: 40px;
-    position: absolute;
-    right: 520px;
-    text-decoration: none;
-}
-.app{
-    top: 40px;
-    position: absolute;
-    right: 350px;
-    text-decoration: none;
-}
-.menu_year{
-    color: rgb(255, 255, 255);
-    width: 280px;
-    background-color: blue;
-}
-.menu_cat{
-    color: rgb(255, 255, 255);
-    width: 280px;
-    background-color: blue;
-}   
-.menu_in{
-    position: absolute;
-    left: 0;
+    left: 150px;
     top: 10px;
-}
-.blog:hover .menu_in{
-    display: none;
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
 
+}
+.title_text_1{
+    font-size: 40px;
+    position:absolute;
+    top: 35px;
+    left: 68px;
+}
+.title_text_2{
+    font-size: 20px;
+    width: 500px;
+    position: absolute;
+    top: 90px;
+    left: 20px;
+    color: rgb(32, 29, 29);
+}
+.title_text_3{
+    position: absolute;
+    font-size: 20px;
+    top: 180px;
+    left: 25px;
+
+}
+.title_text_4{
+    position: absolute;
+    font-size: 20px;
+    top: 330px;
+    left: 25px;
+}
+.title_text_5{
+    position: absolute;
+    font-size: 26px;
+    top: 484px;
+    left: 27px;
+}
+.title_text_6{
+    position: absolute;
+    font-size: 18px;
+    top: 588px;
+    left: 59px;
+    color: rgb(0, 0, 0);
+}
+.form_line{
+    position: absolute;
+    top: 140px;
+    left: 144px;
+    height: 5px;
+    width: 200px;
+    background-color:rgb(0, 84, 252);
+}
+.page1{
+    position: absolute;
+    text-decoration: none;
+    top: 35px;
+    right: 900px;
+    font-size: 25px;
+    color: rgb(0, 73, 219);
+
+}
+.page2{
+    position: absolute;
+    text-decoration: none;
+    top: 35px;
+    right: 760px;
+    font-size: 25px;
+    color: rgb(0, 73, 219);
+}
+.page3{
+    position: absolute;
+    text-decoration: none;
+    top: 35px;
+    right: 610px;
+    font-size: 25px;
+    color: rgb(0, 73, 219);
+}
+.page4{
+    position: absolute;
+    text-decoration: none;
+    top: 35px;
+    right: 500px;
+    font-size: 25px;
+    color: rgb(0, 73, 219);
+}
+.page5{
+    position: absolute;
+    text-decoration: none;
+    top: 35px;
+    right: 360px;
+    font-size: 25px;
+    color: rgb(0, 73, 219);
+}
+.page6{
+    position: absolute;
+    text-decoration: none;
+    top: 14px;
+    left:40px;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+}
+p{
+    color: black ;
+}
+.nav_block{
+    height: 60px;
+    width: 250px;
+    background-color: rgb(170, 211, 230);
+    position: relative;
+    top: 20px;
+    left: 1500px;
+    border-radius: 30px;
 }
